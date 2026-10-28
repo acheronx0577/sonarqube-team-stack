@@ -1,0 +1,28 @@
+# ================================================================
+# SonarQube Project Configuration Template
+# Place a copy named 'sonar-project.properties' in your project root
+# ================================================================
+
+# Unique key for your project in SonarQube
+sonar.projectKey=my-project-key
+
+# Friendly name displayed in the SonarQube UI
+sonar.projectName=My Project
+
+# Project version
+sonar.projectVersion=1.0.0
+
+# Path to source files relative to the project root
+sonar.sources=src
+
+# Optional path to test directories
+# sonar.tests=tests
+
+# Source code encoding
+sonar.sourceEncoding=UTF-8
+
+# Excluded paths from analysis (e.g. dependencies, build outputs)
+sonar.exclusions=**/node_modules/**,**/dist/**,**/build/**,**/.next/**,**/coverage/**,**/*.test.ts,**/*.test.js,**/*.spec.ts,**/*.spec.js
+
+# Test execution & code coverage reports (e.g. LCOV for Jest/Vitest)
+# sonar.javascript.lcov.reportPaths=coverage/lcov.info

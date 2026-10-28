@@ -1,0 +1,18 @@
+# Environment overrides & secrets
+.env
+.env.local
+*.env
+
+# Sonar Scanner generated output
+.scannerwork/
+.sonar/
+
+# Temporary files & logs
+*.log
+tmp/
+temp/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
